@@ -1,0 +1,10 @@
+.footer {
+  background-color: #222;       /* สีพื้นหลัง */
+  color: #fff;                  /* สีตัวอักษร */
+  text-align: center;           /* จัดข้อความตรงกลาง */
+  padding: 1rem 0;              /* ระยะบน-ล่าง */
+  position: fixed;              /* ติดก้นหน้าจอ */
+  bottom: 0;
+  width: 100%;                  /* กว้างเต็มหน้าจอ */
+  font-size: 0.9rem;
+}
