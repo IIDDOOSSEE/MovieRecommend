@@ -1,10 +1,9 @@
 .footer {
-  background-color: #222;       /* สีพื้นหลัง */
-  color: #fff;                  /* สีตัวอักษร */
-  text-align: center;           /* จัดข้อความตรงกลาง */
-  padding: 1rem 0;              /* ระยะบน-ล่าง */
-  position: fixed;              /* ติดก้นหน้าจอ */
-  bottom: 0;
-  width: 100%;                  /* กว้างเต็มหน้าจอ */
+  background-color: #222;
+  color: #fff;
+  text-align: center;
+  padding: 1rem 0;
+  width: 100%;
   font-size: 0.9rem;
+  margin-top: auto; /* ช่วยให้ footer อยู่ด้านล่างสุดของ container */
 }

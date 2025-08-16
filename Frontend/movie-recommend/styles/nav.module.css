@@ -2,13 +2,64 @@
   background-color: #333;
   color: white;
   padding: 1rem;
-}
-.navbar ul {
   display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 10vh;
+}
+
+.navbar ul {
   list-style: none;
   gap: 1rem;
+  display: flex;
 }
+
 .navbar a {
   color: white;
   text-decoration: none;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  transition: all 0.3s ;
+  display: inline-block;
+}
+
+/* hover effect */
+.navbar a:hover {
+  background-color: white;   /* พื้นหลังกลายเป็นสีขาว */
+  color: #333;               /* ตัวอักษรเปลี่ยนเป็นสีเข้ม */
+  box-shadow: 0 2px 5px rgba(0,0,0,0.3); /* ใส่กล่องล้อมเงาเล็กน้อย */
+  transform: translateY(-2px); /* ยกขึ้นเล็กน้อย */
+}
+
+.search {
+  display: flex;
+  align-items: center;
+  flex: 1; 
+  max-width: 700px; 
+  margin: 0 3rem; 
+}
+
+.searchBox {
+  flex: 1; /* ให้ searchBox ขยายเต็มพื้นที่ */
+  border-radius: 15px;
+  background-color: #555;
+  padding: 0.5rem 1rem;
+}
+
+.searchBox input {
+  width: 100%;
+  background: transparent;
+  border: none;
+  color: white;
+  outline: none;
+  padding: 0.25rem;
+}
+
+.searchIcon{
+  padding-left: 0.25rem;
+  cursor: pointer;
+}
+
+.profile{
+  cursor: pointer;
 }

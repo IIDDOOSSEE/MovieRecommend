@@ -1,4 +1,63 @@
 *{
   padding: 0;
   margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* ให้พื้นหลังเต็มหน้าจอ */
+.home-container {
+  height: 100vh;
+  background-image: url("https://images.unsplash.com/photo-1524985069026-dd778a71c7b4");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center; /*กลางแนวตั้ง*/
+  justify-content: center; /*กลางแนวนอน*/
+}
+
+
+/* เลเยอร์ดำบาง ๆ ทับ */
+.overlay {
+  background: rgba(0, 0, 0, 0.6);
+  padding: 40px;
+  border-radius: 20px;
+  text-align: center;
+  color: white;
+  max-width: 600px;
+  width: 90%;
+}
+
+/* title ใหญ่ */
+.title {
+  font-size: 3rem;
+  margin-bottom: 10px;
+}
+
+/* subtitle */
+.subtitle {
+  font-size: 1.2rem;
+  margin-bottom: 30px;
+}
+
+.start-btn {
+  display: inline-block;
+  padding: 0.8rem 2rem;
+  background-color: #ff4c4c;
+  color: white;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: all 0.3s;
+}
+
+.star-btn:hover {
+  background-color: #ff1a1a;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 6px rgba(0,0,0,0.3);
 }
